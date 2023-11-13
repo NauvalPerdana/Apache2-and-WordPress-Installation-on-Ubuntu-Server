@@ -3,9 +3,9 @@
 This tutorial provides step-by-step instructions on how to install Apache and WordPress on Ubuntu Server.
 
 ## Table of Contents
-- [Installation](#installation)
+- [Install Apache2](#install-apache2)
 - [Firewall Configuration](#firewall-configuration)
-- [Accessing the Web Server in a Browser](#accessing-the-web-server-in-a-browser)
+- [Accessing the Apache2 Web Server in a Browser](#accessing-the-apache2-web-server-in-a-browser)
 - [Remote Access to Ubuntu Server](#remote-access-to-ubuntu-server)
 - [Install MySQL](#install-mysql)
 - [Install PHP](#install-php)
@@ -13,7 +13,7 @@ This tutorial provides step-by-step instructions on how to install Apache and Wo
 - [Install WordPress](#install-wordpress)
 - [Create WordPress Post](#create-wordpress-post)
 
-## Installation
+## Install Apache2
 
 1. **Update Package Repository:**
     ```bash
@@ -57,7 +57,7 @@ This tutorial provides step-by-step instructions on how to install Apache and Wo
     sudo systemctl status apache2
     ```
 
-## Accessing the Web Server in a Browser
+## Accessing the Apache2 Web Server in a Browser
 
 1. **Check the IP Address:**
     ```bash
