@@ -226,7 +226,7 @@ Apache HTTP Server, commonly referred to as Apache, is a widely used open-source
    ip-address/wordpress
    ```
    Replace ip-address with your Ubuntu server's IP address.
-   ![Wordpress](zzz)
+   ![1](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/fae655e5-13b3-4aa6-89b3-8aeb3bbc470d)
 
 7. **WordPress Installation:**
 
