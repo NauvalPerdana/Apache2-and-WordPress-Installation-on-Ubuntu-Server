@@ -245,12 +245,12 @@ Apache HTTP Server, commonly referred to as Apache, is a widely used open-source
 ## Create WordPress Post
 
    - Go to Menu -> Post -> All Post, then click "Add New."
-     ![Wordpress](zzz)
+     ![7](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/ca88fb07-65b7-48af-bfa6-6564262ae4db)
    - Write your post content.
-     ![Wordpress](zzz)
+     ![9](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/e58dd4b0-ecd1-44dc-8f32-88d4154f5fa3)
    - Once the content is ready, click "Publish."
-     ![Wordpress](zzz)
+     ![8](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/184ad4e6-9cfa-4cf5-8162-38401441b827)
    - Click "Publish" again.
-     ![Wordpress](zzz)
+     ![10](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/7feeadcd-bf41-4dad-878d-0fe3c39b7036)
    - Finished! You can view your post by clicking "View Post."
-     ![Wordpress](zzz)
+     ![11](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/e6e56a47-f63f-47c3-913b-220bd34ed1e9)
