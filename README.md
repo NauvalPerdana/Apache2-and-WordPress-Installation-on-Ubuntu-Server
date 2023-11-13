@@ -69,7 +69,7 @@ This tutorial provides step-by-step instructions on how to install Apache and Wo
 
 3. **Enter the IP Address:**
     Enter the IP address of your virtual machine in your host machine's browser. The default Apache2 page should appear.
-   ![Apache2](https://github.com/NauvalPerdana/Apache2/blob/main/Apache2.png)
+   ![Apache2](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation-on-Ubuntu-Server/blob/main/pict/Apache2.png)
 
 ## Remote Access to Ubuntu Server
 
