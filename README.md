@@ -115,10 +115,6 @@ This tutorial provides step-by-step instructions on how to install Apache and Wo
     ```
     Replace "username" with your Ubuntu server username and "ip.address" with your Ubuntu server's IP address. Type 'yes' and log in by entering your Ubuntu server password.
 
-## Introduction
-
-Apache HTTP Server, commonly referred to as Apache, is a widely used open-source web server. This tutorial will guide you through the process of installing Apache on your system.
-
 ## Install MySQL
 
 1. **Install MariaDB:**
