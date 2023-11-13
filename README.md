@@ -226,31 +226,31 @@ Apache HTTP Server, commonly referred to as Apache, is a widely used open-source
    ip-address/wordpress
    ```
    Replace ip-address with your Ubuntu server's IP address.
-   ![1](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/fae655e5-13b3-4aa6-89b3-8aeb3bbc470d)
+   ![1](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/22.png)
 
 7. **WordPress Installation:**
 
    - Click "Let's go!"
-     ![2](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/79aba328-b05e-46e4-87dd-52b98956db00)
+     ![2](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/23.png)
    - Enter your database information.
-     ![3](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/ac76a6ca-7df6-4edc-ab40-17aad3cd142e)
+     ![3](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/24.png)
    - Click "Run the installation."
-     ![4](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/e8f0d3e5-c1f7-4bb3-bf1b-08cc9e446de1)
+     ![4](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/25.png)
    - Enter your information.
-     ![5](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/ceea3ce1-9ce0-4dfe-ab41-874f1973a13f)
-   - Click "Log In."
-     ![6](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/cbe5876f-4873-4660-9d36-2c9421c96576)
-     And then enter your username and password.
+     ![5](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/26.png)
+   - Enter your username and password.
+     ![6](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/28.png)
+     And then click "Log In.".
 
 ## Create WordPress Post
 
    - Go to Menu -> Post -> All Post, then click "Add New."
-     ![7](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/ca88fb07-65b7-48af-bfa6-6564262ae4db)
+     ![7](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/30.png)
    - Write your post content.
-     ![9](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/e58dd4b0-ecd1-44dc-8f32-88d4154f5fa3)
+     ![9](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/31.png)
    - Once the content is ready, click "Publish."
-     ![8](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/184ad4e6-9cfa-4cf5-8162-38401441b827)
+     ![8](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/32.png)
    - Click "Publish" again.
-     ![10](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/7feeadcd-bf41-4dad-878d-0fe3c39b7036)
+     ![10](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/33.png)
    - Finished! You can view your post by clicking "View Post."
-     ![11](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/e6e56a47-f63f-47c3-913b-220bd34ed1e9)
+     ![11](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/34.png)
