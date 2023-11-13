@@ -231,15 +231,16 @@ Apache HTTP Server, commonly referred to as Apache, is a widely used open-source
 7. **WordPress Installation:**
 
    - Click "Let's go!"
-     ![Wordpress](zzz)
+     ![2](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/79aba328-b05e-46e4-87dd-52b98956db00)
    - Enter your database information.
-     ![Wordpress](zzz)
+     ![3](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/ac76a6ca-7df6-4edc-ab40-17aad3cd142e)
    - Click "Run the installation."
-     ![Wordpress](zzz)
+     ![4](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/e8f0d3e5-c1f7-4bb3-bf1b-08cc9e446de1)
    - Enter your information.
-     ![Wordpress](zzz)
+     ![5](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/ceea3ce1-9ce0-4dfe-ab41-874f1973a13f)
    - Click "Log In."
-     ![Wordpress](zzz)
+     ![6](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/assets/150425128/cbe5876f-4873-4660-9d36-2c9421c96576)
+     And then enter your username and password.
 
 ## Create WordPress Post
 
