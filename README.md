@@ -77,6 +77,7 @@ Before you begin, ensure that you have the following:
 
 3. **Enter the IP Address:**
     Enter the IP address of your virtual machine in your host machine's browser. The default Apache2 page should appear.
+   ![Apache2](https://github.com/NauvalPerdana/Apache2/blob/main/Apache2.png)
 
 ## Remote Access to Ubuntu Server
 
