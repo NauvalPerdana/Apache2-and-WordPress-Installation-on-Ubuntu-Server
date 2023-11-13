@@ -1,9 +1,8 @@
-# Apache Installation Tutorial
+# Apache and WordPress Installation Tutorial
 
-This tutorial provides step-by-step instructions on how to install Apache on your system.
+This tutorial provides step-by-step instructions on how to install Apache and WordPress on Ubuntu Server.
 
 ## Table of Contents
-- [Introduction](#introduction)
 - [Installation](#installation)
 - [Firewall Configuration](#firewall-configuration)
 - [Accessing the Web Server in a Browser](#accessing-the-web-server-in-a-browser)
@@ -13,10 +12,6 @@ This tutorial provides step-by-step instructions on how to install Apache on you
 - [Create WordPress Database](#create-wordpress-database)
 - [Install WordPress](#install-wordpress)
 - [Create WordPress Post](#create-wordpress-post)
-
-## Introduction
-
-Apache HTTP Server, commonly referred to as Apache, is a widely used open-source web server. This tutorial will guide you through the process of installing Apache on your system.
 
 ## Installation
 
