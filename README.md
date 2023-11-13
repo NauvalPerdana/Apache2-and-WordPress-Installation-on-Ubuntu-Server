@@ -8,6 +8,11 @@ This tutorial provides step-by-step instructions on how to install Apache on you
 - [Firewall Configuration](#firewall-configuration)
 - [Accessing the Web Server in a Browser](#accessing-the-web-server-in-a-browser)
 - [Remote Access to Ubuntu Server](#remote-access-to-ubuntu-server)
+- [Install MySQL](#install-mysql)
+- [Install PHP](#install-php)
+- [Create WordPress Database](#create-wordpress-database)
+- [Install WordPress](#install-wordpress)
+- [Create WordPress Post](#create-wordpress-post)
 
 ## Introduction
 
@@ -114,3 +119,137 @@ Apache HTTP Server, commonly referred to as Apache, is a widely used open-source
     ssh username@ip.address
     ```
     Replace "username" with your Ubuntu server username and "ip.address" with your Ubuntu server's IP address. Type 'yes' and log in by entering your Ubuntu server password.
+
+## Introduction
+
+Apache HTTP Server, commonly referred to as Apache, is a widely used open-source web server. This tutorial will guide you through the process of installing Apache on your system.
+
+## Install MySQL
+
+1. **Install MariaDB:**
+    ```bash
+    sudo apt install mariadb-server mariadb-client
+    ```
+2. **Configure MariaDB:**
+   ```bash
+    sudo mysql_secure_installation
+    ```
+
+## Install PHP
+
+1. **Install PHP and PHP-MySQL Extension:**
+    ```bash
+    sudo apt install php php-mysql
+    ```
+
+2. **Configure PHP Info Page:**
+    ```bash
+    sudo nano /var/www/html/info.php
+    ```
+
+3. **Add PHP Info Code:**
+    ```bash
+    <?php
+    phpinfo();
+    ?>
+    ```
+
+4. **Open Browser:**
+
+   Open your browser and navigate to:
+    ```bash
+    ip-address/info.php
+    ```
+    Replace ip-address with your Ubuntu server's IP address. Check the IP address with the command hostname -I.
+
+## Create WordPress Database
+
+1. **Access MySQL:**
+    ```bash
+    sudo mysql -u root -p
+    ```
+
+2. **Create Database:**
+    ```bash
+    CREATE DATABASE wordpress;
+    ```
+
+3. **Create User:**
+    ```bash
+    CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'password';
+    ```
+
+4. **Grant Permissions:**
+    ```bash
+    GRANT ALL ON wordpress.* TO 'wordpress_user'@'localhost' IDENTIFIED BY 'password';
+    ```
+
+5. **Flush Privileges:**
+    ```bash
+    FLUSH PRIVILEGES;
+    Exit;
+    ```
+
+## Install WordPress
+
+1. **Download WordPress:**
+    ```bash
+    sudo wget -c https://wordpress.org/latest.tar.gz
+    ```
+
+2. **Extract WordPress:**
+    ```bash
+    sudo tar -xzvf latest.tar.gz
+    ```
+
+3. **Move WordPress Files**
+   ```bash
+   sudo cp -R wordpress /var/www/html/
+   ```
+   
+4. **Set Permissions**
+   ```bash
+   sudo chown -R www-data:www-data /var/www/html/wordpress/
+   sudo chmod -R 755 /var/www/html/wordpress/
+   ```
+   
+5. **Create Uploads Directory**
+   ```bash
+   sudo mkdir /var/www/html/wordpress/wp-content/uploads
+   sudo chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads/
+   ```
+
+6. **Open WordPress in Browser:**
+
+   Navigate to:
+   ```bash
+   ip-address/wordpress
+   ```
+   Replace ip-address with your Ubuntu server's IP address.
+   ![Wordpress](zzz)
+
+7. **WordPress Installation:**
+
+   - Click "Let's go!"
+     ![Wordpress](zzz)
+   - Enter your database information.
+     ![Wordpress](zzz)
+   - Click "Run the installation."
+     ![Wordpress](zzz)
+   - Enter your information.
+     ![Wordpress](zzz)
+   - Click "Log In."
+     ![Wordpress](zzz)
+
+## Create WordPress Post
+
+   - Go to Menu -> Post -> All Post, then click "Add New."
+     ![Wordpress](zzz)
+   - Write your post content.
+     ![Wordpress](zzz)
+   - Once the content is ready, click "Publish."
+     ![Wordpress](zzz)
+   - Click "Publish" again.
+     ![Wordpress](zzz)
+   - Finished! You can view your post by clicking "View Post."
+     ![Wordpress](zzz)
