@@ -4,7 +4,6 @@ This tutorial provides step-by-step instructions on how to install Apache on you
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Firewall Configuration](#firewall-configuration)
 - [Accessing the Web Server in a Browser](#accessing-the-web-server-in-a-browser)
@@ -13,13 +12,6 @@ This tutorial provides step-by-step instructions on how to install Apache on you
 ## Introduction
 
 Apache HTTP Server, commonly referred to as Apache, is a widely used open-source web server. This tutorial will guide you through the process of installing Apache on your system.
-
-## Prerequisites
-
-Before you begin, ensure that you have the following:
-
-- [ ] Access to a terminal or command prompt
-- [ ] Appropriate permissions to install software on your system
 
 ## Installation
 
